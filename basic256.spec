@@ -39,7 +39,7 @@ mkdir -p %buildroot%_datadir/%name/help
 cd trunk
 install -D BASIC256 %buildroot%_bindir/BASIC256
 install Translations/*.qm %buildroot%_datadir/%name/
-install -D %SOURCE1 %buildroot%_desktopdir/%name.desktop
+install -D %SOURCE1 %buildroot%{_datadir}/applications//%name.desktop
 install -D %SOURCE2 %buildroot%_iconsdir/%name.png
 cp -r Examples %buildroot%_datadir/%name/
 cp -r ./../doc/en/ %buildroot%_datadir/%name/help/
@@ -53,6 +53,6 @@ rm -rf %{buildroot}
 %doc trunk/CONTRIBUTORS trunk/license.txt trunk/ChangeLog
 %{_bindir}/*
 %{_datadir}/%name
-%{_desktopdir}/%name.desktop
+%{_datadir}/applications/%name.desktop
 %{_iconsdir}/%name.png
 
