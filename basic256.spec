@@ -51,8 +51,8 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc trunk/CONTRIBUTORS trunk/license.txt trunk/ChangeLog
-%_bindir/*
-%_datadir/%name
-%_desktopdir/%name.desktop
-%_iconsdir/%name.png
+%{_bindir}/*
+%{_datadir}/%name
+%{_desktopdir}/%name.desktop
+%{_iconsdir}/%name.png
 
