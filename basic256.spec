@@ -9,7 +9,7 @@ Patch0: basic256-0.9.6-alt-fix-say-function.patch
 BuildRoot:	%{_tmppath}/%{name}%{version}-root
 License: GPL
 Group: Development/Other
-BuildRequires: libqt4-devel SDL-devel SDL_mixer-devel sqlite3-devel gcc-c++ flex bison
+BuildRequires: libqt4-devel SDL-devel libSDL_mixer-devel sqlite3-devel gcc-c++ flex bison
 Summary: Simple BASIC IDE that allows young children to learn to programming
 
 %description
