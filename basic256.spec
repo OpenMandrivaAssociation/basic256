@@ -9,6 +9,7 @@ Source3: basic256_32.png
 BuildRoot:	%{_tmppath}/%{name}%{version}-root
 License: GPL
 Group: Development/Other
+BuildRequires:	make
 BuildRequires: libqt4-devel libSDL-devel libSDL_mixer-devel sqlite3-devel gcc-c++ flex bison espeak libespeak-devel
 Summary: Simple BASIC IDE that allows young children to learn to programming
 
