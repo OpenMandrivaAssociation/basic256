@@ -1,6 +1,6 @@
 Name: basic256
 Version: 0.9.6.66
-Release: %mkrel 1
+Release: 2
 URL: https://kidbasic.sourceforge.net
 Source: http://ovh.dl.sourceforge.net/sourceforge/kidbasic/basic256/%{name}_%{version}.tgz
 Source1: basic256-0.9.6-doc.tar.gz
